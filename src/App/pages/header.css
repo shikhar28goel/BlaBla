@@ -1,0 +1,66 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(246, 241, 241);
+    padding: 10px;
+}
+
+.header ul li {
+    padding: 10px;
+}
+
+.header .link h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 800;
+    font-size: 25px;
+    color: hsl(315, 84%, 41%);
+}
+
+.custom-active {
+    color: hsl(263, 89%, 21%);
+}
+
+.body {
+    display: flex;
+    list-style-type: none;
+    width: 800px;
+    justify-content: space-around;
+    margin: auto;
+    /* background-color: #e9565625; */
+}
+
+.college {
+    padding: 50px;
+    border: 1px solid black;
+    text-align: left;
+    background-color: rgba(242, 201, 148, 0.395);
+    border-radius: 0.5rem;
+    margin: 0px;
+    width: 80%;              /* or 100%, depending on your layout */
+    margin: 0 auto;          /* centers the container */    
+    display: flex;
+    flex-direction: column;
+  /* align-items: stretch;   */
+
+}
+
+.inputfeild {
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 10px;
+    width: '50%';
+    
+}
