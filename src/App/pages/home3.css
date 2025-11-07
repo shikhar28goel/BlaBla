@@ -1,0 +1,22 @@
+.full-home3-container{
+    /* min-height: 100vh; */
+   position: relative;
+  min-width:  100%;  
+  min-height: 200px;
+  background-color: rgb(230, 229, 227);
+  max-height: 100%;
+}
+
+.mchild {   
+    /* height: 450px; */
+    /* width: 500px; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    border: 0px solid black;
+    justify-content: center;
+    padding: 10px;
+
+    
+}
