@@ -1,7 +1,14 @@
+import { useState } from 'react';
 import './home2.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import DatePicker from "react-datepicker";
+import "react-datepicker";
+
 
 export default function Home2() {
+    const [selectedDate, setSelectedDate] = useState(null);
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <Container className="full-home2-container">
             <Row className="overlay-form-container">
